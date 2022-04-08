@@ -8,51 +8,95 @@ Compile instruction:
 > ./producer & ./consumer
 
 Example 1:
+
 enariya@enariya-VirtualBox:~/project/operatingSys$ ./producer & ./consumer
+
 [1] 13087
+
 Producer is producing.
+
 id 0: filling with item: 32
+
 Consumer is consuming.
+
 Empty table, next attempt will happem in next critical section
+
 Consumer is consuming.
+
 Empty table, next attempt will happem in next critical section
+
 Producer is producing.
+
 id 1: filling with item: 35
+
 Consumer is consuming.
+
 id 1: filled with item: 35. clearing in progress
+
 Producer is producing.
+
 id 0: filled, recheck happens in next critical section
+
 Consumer is consuming.
+
 id 0: filled with item: 32. clearing in progress
+
 Producer is producing.
+
 id 0: filling with item: 508
+
 Consumer is consuming.
+
 Empty table, next attempt will happem in next critical section
+
 Producer is producing.
+
 id 1: filling with item: 745
+
 Consumer is consuming.
+
 id 1: filled with item: 745. clearing in progress
+
 Producer is producing.
+
 id 0: filled, recheck happens in next critical section
+
 Consumer is consuming.
+
 id 0: filled with item: 508. clearing in progress
+
 Producer is producing.
+
 id 0: filling with item: 282
+
 Consumer is consuming.
+
 Empty table, next attempt will happem in next critical section
+
 Producer is producing.
+
 id 1: filling with item: 501
+
 Consumer is consuming.
+
 id 1: filled with item: 501. clearing in progress
+
 Producer is producing.
+
 id 0: filled, recheck happens in next critical section
+
 Consumer is consuming.
+
 id 0: filled with item: 282. clearing in progress
+
 Producer is producing.
+
 id 0: filling with item: 531
+
 Consumer is consuming.
+
 Empty table, next attempt will happem in next critical section
+
 Producer is producing.
+
 id 1: filling with item: 504
-
-
