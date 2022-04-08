@@ -4,8 +4,11 @@ The producer generates items and puts items onto the table. The consumer will pi
 
 Compile instruction:
 > gcc producer.c -pthread -lrt -o producer
+> 
 > gcc consumer.c -pthread -lrt -o consumer
+> 
 > ./producer & ./consumer
+> 
 
 Example 1:
 
