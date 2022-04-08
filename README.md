@@ -102,5 +102,9 @@ Empty table, next attempt will happem in next critical section
 
 Producer is producing.
 
-id 1: filling with item: 504
->>>>>>> ee42c6a614463f80949f542233d86479c6759085
+<img width="630" alt="Screen Shot 2022-04-08 at 10 04 20 AM" src="https://user-images.githubusercontent.com/60280129/162452308-ad482721-4420-4407-a5a3-bb7c59519280.png">
+<img width="521" alt="Screen Shot 2022-04-08 at 10 04 35 AM" src="https://user-images.githubusercontent.com/60280129/162452431-ba7ab81c-7b4c-4567-ba57-5ec560c69639.png">
+
+
+
+
